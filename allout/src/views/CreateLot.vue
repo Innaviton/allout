@@ -1,55 +1,52 @@
 
 <template>
 <div>
-    <header></header>
     <p id = "NewLotText">Новое объявление</p>
       <p id = "LocationUpText">Город:</p>
       <input id = "Location" v-model="city" name="location" type="text" >
       <p id = "NameUpText">Название лота:</p>
-      <input type="text" v-model="name" name="login" id = "Name" />
+      <input type="text" v-model="name" name="login" class = "Name" />
       <p id = "PhotoUpText">Фото:</p>
       <input name = "photo" ref="photo" type="file" id = "Photo">
-      <p id = "DiscriptionUpText">Описание:</p> 
+      <p id = "DiscriptionUpText">Описание:</p>
     <input v-model="description" type = "text" id = "Discription">
     <p id = "StartPriceUpText">Начальная цена:</p>
     <input type = "text" v-model="startPrice" name="StartPrice" id = "StartPrice" />
-    <button id = "SumbitButton"><a href="/lots"> Выставить</a></button>
+    <button id = "SumbitButton">Выставить</button>
 
     </div>
 </template>
 
 <script>
 import axios from 'axios';
-import header from '../components/header.vue';
 
 export default {
-  components: {header},
   data() {
     return {
-    
+
     city: '',
     name: '',
     startPrice: '',
     imageUrl: '',
     description: '',
-    
- 
-    
-    
+
+
+
+
       }
-      
-  
+
+
   },
 
 
 addLot(payload) {
-      const path = 'http://localhost:5500/createLot'
+      const path = 'http://localhost:5000/books';
       axios.post(path, payload)
-      
+
         .catch((error) => {
           // eslint-отключение следующей строки
           console.log(error);
-    
+
         });
     },
     initForm() {
@@ -58,13 +55,13 @@ addLot(payload) {
       this.startPrice = '';
       this.imageUrl = '';
       this.description = '';
-      
+
     },
     onSubmit(evt) {
       evt.preventDefault();
       this.$refs.addBookModal.hide();
       let read = false;
-      
+
       const payload = {
       location: this.city = '',
       lotName: this.name = '',
@@ -75,20 +72,19 @@ addLot(payload) {
       this.addLot(payload);
       this.initForm();
     },
-    
-  
+
+
 }
-    
-  
+
+
 
 
 </script>
 
 <style>
 @import url(https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600);
-
 #NewLotText{
-    
+
 position: absolute;
 width: 369px;
 height: 43px;
@@ -111,7 +107,7 @@ color: #000000;
 width: 155.72px;
 height: 19px;
 left: 560px;
-top: 196px;
+top: 200px;
 
 font-family: 'Montserrat';
 font-style: normal;
@@ -130,6 +126,7 @@ top: 230px;
   font-weight: inherit;
   line-height: var(--inputLineHeight);
   border-radius: 0.4rem;
+  border: 1px solid black;
   font-family: 'Montserrat';
 font-style: normal;
 font-weight: 400;
@@ -141,7 +138,7 @@ line-height: 130%;
 width: 242.93px;
 height: 19px;
 left: 560.24px;
-top: 275px;
+top: 278px;
 
 font-family: 'Montserrat';
 font-style: normal;
@@ -149,18 +146,19 @@ font-weight: 400;
 font-size: 14px;
 line-height: 130%;
 }
-#Name{
-    position: absolute;
+.Name{
+position: absolute;
 width: 550px;
 height: 40px;
 left: 540px;
-top: 309px;
+top: 304px;
 display: block;
  font-family: inherit;
   font-size: var(--inputFontSize);
   font-weight: inherit;
   line-height: var(--inputLineHeight);
   border-radius: 0.4rem;
+  border: 1px solid black;
  font-family: 'Montserrat';
 font-style: normal;
 font-weight: 400;
@@ -187,13 +185,11 @@ line-height: 130%;
 width: 550px;
 height: 40px;
 left: 540px;
-top: 383px;
+top: 370px;
 display: block;
  font-family: inherit;
   font-size: var(--inputFontSize);
   font-weight: inherit;
-  line-height: var(--inputLineHeight);
-
   font-size: 20px;
   font-family: 'Montserrat';
   font-style: normal;
@@ -216,7 +212,7 @@ line-height: 130%;
 width: 550px;
 height: 40px;
 left: 540px;
-top: 443px; 
+top: 433px;
  font-family: inherit;
   font-size: var(--inputFontSize);
   font-weight: inherit;
@@ -226,6 +222,7 @@ top: 443px;
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
+ border: 1px solid black;
 line-height: 130%;
 }
 #SumbitButton{
@@ -263,7 +260,8 @@ line-height: 130%;
 width: 550px;
 height: 40px;
 left: 540px;
-top: 510px; 
+top: 500px;
+ border: 1px solid black;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 400;
