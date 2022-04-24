@@ -1,6 +1,6 @@
 
 <template>
-<div>
+<div id = "contain">
     <p id = "NewLotText">Новое объявление</p>
       <p id = "LocationUpText">Город:</p>
       <input id = "Location" v-model="city" name="location" type="text" >
@@ -83,6 +83,10 @@ addLot(payload) {
 
 <style>
 @import url(https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600);
+#contain{
+  position: relative;
+  left: 12%;
+}
 #NewLotText{
 
 position: absolute;

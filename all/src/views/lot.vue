@@ -17,39 +17,39 @@
 					<div class="description-lot__row">
 						<div class="description-lot__content">
 							<div class="description-lot__line"></div>
-							<div class="description-lot__title">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</div>
+							<div class="description-lot__title">Кит-Кат</div>
 							<div class="description-lot__line"></div>
 							<div class="description-lot__text-box">
 								<div class="description-lot__text-left">Название:</div>
-								<div class="description-lot__text-right">{{lotName}}</div>
+								<div class="description-lot__text-right">Кит-Кат</div>
 							</div>
 							<div class="description-lot__text-box">
 								<div class="description-lot__text-left">Текущая цена:</div>
-								<div class="description-lot__text-right">{{nowCost}} руб.</div>
+								<div class="description-lot__text-right">{{320}} руб.</div>
 							</div>
 							<div class="description-lot__text-box">
 								<div class="description-lot__text-left">Лидер:</div>
-								<div class="description-lot__text-right">Имя лидера</div>
+								<div class="description-lot__text-right">NoxDregon</div>
 							</div>
 							<div class="description-lot__text-box">
 								<div class="description-lot__text-left">Стартовая цена:</div>
-								<div class="description-lot__text-right">{{startPrice}} руб.</div>
+								<div class="description-lot__text-right">{{10}} руб.</div>
 							</div>
 							<div class="description-lot__text-box">
 								<div class="description-lot__text-left">Шаг ставки:</div>
-								<div class="description-lot__text-right">1 000 руб.</div>
+								<div class="description-lot__text-right">-</div>
 							</div>
 							<div class="description-lot__text-box">
 								<div class="description-lot__text-left">Ставок:</div>
-								<div class="description-lot__text-right">52</div>
+								<div class="description-lot__text-right">8</div>
 							</div>
 							<div class="description-lot__text-box">
 								<div class="description-lot__text-left">Осталось до конца торгов:</div>
-								<div class="description-lot__text-right">2 дня</div>
+								<div class="description-lot__text-right">12ч 52м</div>
 							</div>
 							<div class="description-lot__text-box">
 								<div class="description-lot__text-left">Состояние товара</div>
-								<div class="description-lot__text-right">Есть царапины </div>
+								<div class="description-lot__text-right">Идеальное</div>
 							</div>
 							<div class="description-lot__text-box">
 								<div class="description-lot__text-left">Начало торгов:</div>
@@ -79,8 +79,8 @@
 					</nav>
 					<div class="description-lot-bottom-side__screns">
 						<div class="description-lot-bottom-side__first-screen _tabs-block _active">
-							<div class="description-lot-bottom-side__footer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis cursus ornare quisque aliquam etiam. Viverra egestas nam sed luctus. Dignissim diam sed nullam et et. Convallis viverra adipiscing posuere amet. Tellus facilisis sed molestie tortor ultrices duis at neque, in. Et id mauris ac, feugiat.</div>
-							<div class="description-lot-bottom-side__footer-text">Et id vestibulum in tellus ut. Et ac velit orci volutpat aliquam lectus tortor, aenean fringilla. Proin mattis quam nibh praesent urna nunc, quis blandit iaculis. Imperdiet consectetur sit odio id. Amet sagittis, nulla semper vulputate tempor pellentesque tempus nisi, eu. Senectus tristique quis vitae at maecenas cras. Morbi tortor augue elit sit et risus, luctus lacinia. Volutpat, maecenas viverra vel habitant porta mattis mauris vitae. Blandit quam urna dolor, in leo. Est sit velit facilisis eget quis odio eleifend. Cursus scelerisque faucibus laoreet arcu dui feugiat quis tellus nisi. Nisl sit id laoreet curabitur dui nulla lorem dictum. Id egestas est auctor ut in sed ipsum sollicitudin tellus. Nec, rhoncus malesuada eleifend nibh aliquet.</div>
+							<div class="description-lot-bottom-side__footer-text">Суппер вкусный Кит-Кат</div>
+							<div class="description-lot-bottom-side__footer-text">Доставка по всей Туле за спасибо</div>
 						</div>
 						<div class="description-lot-bottom-side__second-screen _tabs-block _active">
 							<div class="description-lot-bottom-side__question-box">
@@ -162,7 +162,7 @@
 					<div class="description-lot-right-side__content">
 						<div class="description-lot-right-side__content-box">
 							<div class="description-lot-right-side__sub-title">Максимальная ставка:</div>
-							<div class="description-lot-right-side__text">50 000 руб.</div>
+							<div class="description-lot-right-side__text">10 руб.</div>
 						</div>
 						<div class="description-lot-right-side__content-box">
 							<div class="description-lot-right-side__sub-title">Ставка:</div>
@@ -171,7 +171,7 @@
 						</div>
 						<div class="description-lot-right-side__content-box">
 							<div class="description-lot-right-side__sub-title">Текущая цена:</div>
-							<div class="description-lot-right-side__text">{{nowPrice}}</div>
+							<div class="description-lot-right-side__text">{{320}}</div>
 						</div>
 						<div class="description-lot-right-side__content-box">
 							<div class="description-lot-right-side__sub-title">Отложенная ставка:</div>
@@ -220,7 +220,7 @@
 					<div class="description-lot-right-side__content">
 						<div class="description-lot-right-side__content-box">
 							<div class="description-lot-right-side__sub-title">Доставка:</div>
-							<div class="description-lot-right-side__text">Доставка по России</div>
+							<div class="description-lot-right-side__text">Доставка по городу</div>
 						</div>
 						<div class="description-lot-right-side__content-box">
 							<div class="description-lot-right-side__sub-title">Способы доставки:</div>

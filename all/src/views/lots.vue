@@ -15,9 +15,56 @@
   
     </tr>
     
-    </div>
-  
-  
+        <div id = "LotContainer1">
+        <img src = "assets/Favorite.png" id = "heart">
+        <img src = "" id = "LotPreviev">
+        <a href="/Lot" Id = "LotName">Кит-Кат</a> <!--Название лота-->
+        <p id = "EndText">Окончание:</p>
+        <p id = "TimeText">12ч 52м</p> <!--Время оставшееся-->
+        <p id = "NowPriceText">Текущая цена:</p>
+        <p id = "NowPrice">320 </p> <!--Нынешний прайс-->
+        </div>
+            <div id = "LotContainer2">
+        <img src = "assets/Favorite.png" id = "heart">
+        <img src = "" id = "LotPreviev">
+        <p id = "LotName"><a href="/lot">Карточка Чаризарда</a></p> <!--Название лота-->
+        <p id = "EndText">Окончание:</p>
+        <p id = "TimeText">15ч 1м</p> <!--Время оставшееся-->
+        <p id = "NowPriceText">Текущая цена:</p>
+        <p id = "NowPrice">12100 </p> <!--Нынешний прайс-->
+                </div>
+
+            <div id = "LotContainer3">
+        <img src = "assets/Favorite.png" id = "heart">
+        <img src = "" id = "LotPreviev">
+        <a href="/lot" Id = "LotName">Машмна Shkoda</a><!--Название лота-->
+        <p id = "EndText">Окончание:</p>
+        <p id = "TimeText">20ч 12м</p> <!--Время оставшееся-->
+        <p id = "NowPriceText">Текущая цена:</p>
+        <p id = "NowPrice">150000 </p> <!--Нынешний прайс-->
+                </div>
+
+            <div id = "LotContainer4">
+        <img src = "assets/Favorite.png" id = "heart">
+        <img src = "" id = "LotPreviev">
+        <p id = "LotName"><a href="/lot">Кубик Рубика</a></p> <!--Название лота-->
+        <p id = "EndText">Окончание:</p>
+        <p id = "TimeText">22ч 41м</p> <!--Время оставшееся-->
+        <p id = "NowPriceText">Текущая цена:</p>
+        <p id = "NowPrice">500 </p> <!--Нынешний прайс-->
+                </div>
+
+            <div id = "LotContainer5">
+        <img src = "assets/Favorite.png" id = "heart">
+        <img src = "" id = "LotPreviev">
+        <p id = "LotName"><a href="/lot">Плакат AC/DC с росписью</a></p> <!--Название лота-->
+        <p id = "EndText">Окончание:</p>
+        <p id = "TimeText">31ч 28м</p> <!--Время оставшееся-->
+        <p id = "NowPriceText">Текущая цена:</p>
+        <p id = "NowPrice">2100 </p> <!--Нынешний прайс-->
+            </div>
+
+  </div>
 </template>
 <script>
 import axios from 'axios';
@@ -60,12 +107,48 @@ export default {
 </script>
 
 <style lang="scss">
-#LotContainer{
- 
+#LotContainer1{
+ position:absolute;
+ left: 20%;
 width: 270px;
 height: 410px;
 border-bottom: 1px;
 border-color:#000000;
+}
+#LotContainer2{
+ position:absolute;
+ left: 35%;
+width: 270px;
+height: 410px;
+border-bottom: 1px;
+border-color:#000000;
+
+}
+#LotContainer3{
+ position:absolute;
+ left: 50%;
+width: 270px;
+height: 410px;
+border-bottom: 1px;
+border-color:#000000;
+}
+#LotContainer4{
+ position:absolute;
+ left: 65%;
+width: 270px;
+height: 410px;
+border-bottom: 1px;
+border-color:#000000;
+
+}
+#LotContainer5{
+ position:absolute;
+ left: 80%;
+width: 270px;
+height: 410px;
+border-bottom: 1px;
+border-color:#000000;
+
 }
 #LotPreviev{
 position: relative;
@@ -77,7 +160,7 @@ height: 270px;
 width: 250px;
 height: 46px;
 left: 10px;
-top: 277px;
+top: 280px;
 
 font-family: 'Montserrat';
 font-style: normal;
@@ -106,8 +189,8 @@ color: rgba(0, 0, 0, 0.5);
     position: absolute;
 width: 70px;
 height: 21px;
-left: 720px;
-top: 1522px;
+left: 173px;
+top: 324px;
 
 font-family: 'Montserrat';
 font-style: normal;
@@ -152,5 +235,9 @@ color: #000000;
 top: 11px;
 bottom: 240px;
 background: #000000;
+}
+#ContFCont{
+  position: relative;
+  width: 100px;
 }
 </style>

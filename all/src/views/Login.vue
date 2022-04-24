@@ -2,7 +2,7 @@
   <div>
       <div id = "Contain">
           <p id = "LogIn">Войти</p>
-          <p id = "Register"> Регестрация </p>
+          <a href="/register" id = "Register"> Регестрация </a>
             <input id = "EmailInput" name = "email" placeholder="Email">
           <input id = "Password" name = "password" placeholder="Пороль">
           <p id = "ForgotPassword">Я забыл пароль </p>

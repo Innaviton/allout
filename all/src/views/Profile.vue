@@ -5,7 +5,7 @@
       <span id="mydata">Мои данные</span>
       <span id="personalscore">Личный счёт</span>
       <span id="mytovarsbuy">Мои товар покупка</span>
-      <span id="mytovarssale">Мои товары продажа</span>
+      <span src = "/" id="mytovarssale">Мои товары продажа</span>
       <span id="mybits">Мои ставки</span>
       <span id="folowers">Избранное</span>
       <span id="question">Вопросы</span>

@@ -1,7 +1,7 @@
 <template>
   <div>
       <div id = "Contain">
-          <p id = "LogIn">Войти</p>
+          <a href = "/login" id = "LogIn">Войти</a>
           <p id = "Register"> Регестрация </p> 
           <input id = "NicknameInput" v-model="name" name = "nickname" placeholder="Имя пользователя">
           <input id = "EmailInput" v-model="email" name = "email" placeholder="Email">

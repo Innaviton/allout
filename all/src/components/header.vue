@@ -2,10 +2,10 @@
     <div class="container">
         <img id="logo" src="">
         <span id="title">Allout</span>
-        <button id="button"><span>Добавить объявление</span><div id="line-btn"></div><img id="plus" src="../../public/img/header/plus.svg"></button>
+        <button id="button"><span><a href="/create" >Добавить объявление</a></span><div id="line-btn"></div><img id="plus" src="../../public/img/header/plus.svg"></button>
         <div id="line"></div>
-        <span id="login">Вход для клиента /</span> 
-        <span id="register">Регистрация</span>
+        <a href = "/login" id="login">Вход для клиента /</a> 
+        <a  href = "/register" id="register">Регистрация</a>
         <div iud="auth"></div>
         <input id="search" placeholder="Поиск">
         <button id="search-button" ><img id="icon" src="../../public/img/header/loop.svg"></button>
@@ -78,9 +78,9 @@
     }
     #plus{
       position: relative;
-      top: -38px;
+      top: -34px;
       height: 18px;
-      left: 112px;
+      left: 110px;
     }
     #line{
       position: absolute;
